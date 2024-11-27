@@ -1,12 +1,8 @@
 {
   "name": "npm-cache",
   "version": "0.8.3",
-  "description": "cache dependency manager installs to local machine - fork of npm-cache by swaraj - respects commandline args and deals with npm --production args etc.",
+  "description": "cache dependency manager installs to local machine - fork of npm-cache by art-institute-of-chicago ",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Dashlane/npm-cache.git"
-  },
   "keywords": [
     "npm",
     "cache",
@@ -19,23 +15,11 @@
   "author": "swaraj",
   "contributors": [
     {
-      "name": "Aaron Nordyke",
-      "email": "aaron.nordyke@gmail.com"
+      "name": "Gustavo caetano",
+      "email": "gustavocaetno@gmail.com"
     },
-    {
-      "name": "Klaus Hougesen",
-      "email": "Klaus.Hougesen@gmail.com"
-    },
-    {
-      "name": "Guillaume Maron",
-      "email": "guillaume.maron@gmail.com"
-    }
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/swarajban/npm-cache/issues"
-  },
-  "homepage": "https://github.com/swarajban/npm-cache",
   "dependencies": {
     "async": "2.1.4",
     "cli-color": "^1.1.0",
