@@ -297,7 +297,7 @@ CacheDependencyManager.prototype.installCachedDependencies = function (cachePath
       var cachePathSymLink = path.resolve(cachePath, 'node_modules');
       this.cacheLogInfo('creating symlink ' + installDirectory + ' to point to ' + cachePathSymLink);
       //'dir' requires admin rights on windows, junction works. This argument is ignored by other platforms
-      fs.symlinkSync(cachePathSymLink, installDirectory, 'junction');
+      fs.symlinkSync(cachePathSymLink, installDirectory, 'dir');
 
       //some modules might need to find files based on a relative path which can be a problem, so we need to create a reverse symlink
       if (this.config.reverseSymlink) {
