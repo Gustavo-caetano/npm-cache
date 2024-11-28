@@ -1,6 +1,6 @@
 {
   "name": "npm-cache-link",
-  "version": "0.8.3",
+  "version": "0.8.6",
   "description": "cache dependency manager installs to local machine - fork of npm-cache by art-institute-of-chicago ",
   "main": "index.js",
   "keywords": [
@@ -23,6 +23,7 @@
   "dependencies": {
     "async": "2.1.4",
     "cli-color": "^1.1.0",
+    "copy-node-modules": "^1.1.1",
     "fs-extra": "2.0.0",
     "fstream": "1.0.8",
     "lodash": "4.17",
@@ -38,6 +39,6 @@
   },
   "preferGlobal": true,
   "bin": {
-    "npm-cache": "index.js"
+    "npm-cache-link": "index.js"
   }
 }
